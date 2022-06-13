@@ -33,6 +33,7 @@ display: flex;
 .h1 {
  font-size: 80px;
  margin: 70px;
+ text-align: center;
 }
 
 .hr {
@@ -74,6 +75,27 @@ text-align: center;
     text-decoration: underline;
 }
 
+.h2s {
+    font-size: 48px;
+    text-align: center;
+    padding-top: 50px;
+    text-decoration: underline; 
+}
+
+.h2p {
+    font-size: 48px;
+    text-align: center;
+    padding-top: 15px;
+    text-decoration: underline; 
+}
+
+.h2a {
+    font-size: 48px;
+    text-align: center;
+    padding-top: 120px;
+    text-decoration: underline; 
+}
+
 .h3 {
     font-size: 32px;
     text-align: center;
@@ -82,6 +104,18 @@ text-align: center;
 
 .ul {
     font-size: 20px;
+}
+
+.ul1 {
+    font-size: 20px;
+    padding-left: 140px;
+    
+}
+
+.ul2 {
+    font-size: 20px;
+    padding-left: 140px;
+    padding-top: 80px;
 }
 
 .opt {
@@ -98,7 +132,7 @@ text-align: center;
 }
 .fot {
     position: relative;
-    top: 775px;
+    top: 620px;
     width: 100%;
     border-top: 3px solid rgb(223, 203, 19);
     background: rgb(243, 172, 21);
@@ -147,19 +181,3 @@ justify-content: center;
     text-decoration: none;
     font-size: 25px;
 }
-
-/*@media only screen and (max-width: 1000px) { 
-    .main { 
-    width: 50%; 
-    } 
-    }
-    @media only screen and (max-width: 1000px) { 
-        .hr { 
-        width: 50%; 
-        } 
-        }
-        @media only screen and (max-width: 1000px) { 
-            .head { 
-            width: 50%; 
-            } 
-            } */
