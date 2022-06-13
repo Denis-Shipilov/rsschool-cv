@@ -4,9 +4,117 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Резюме</title>
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
 </head>
-<body>
+<body class="body">
+<div class="opt">
+    <header class="head">
+        <nav>
+            <ul class="ulgav">
+                <li class="li">
+                    <a class="anav" href="#About me">About me</a>
+                    <a class="anav" href="#skill">My skills</a>
+                    <a class="anav" href="#lang">Languages</a>
+                    <a class="anav" href="#Pers">Personal qualities</a>
+                    <a class="anav" href="#code">Code example</a>
+                    <a class="anav" href="#code">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+<main class="opt">
+<section class="main">
+    <div class="right"><img class="img" src="img\MyPhoto.jpg" alt="Denis Shipilov"></div>
+    <div class="left"><h1 class="h1">Denis Shipilov</h1></div>
+</section>
+<hr class="hr">
+<div class="main">
+    <section class="secleft" id="About me"><h2 class="h2">About me</h2></section>
+    <section class="section">
+        <h3 class="h3">About me</h3>
+        <ul class="ul">
+            <li>Date of birth: 03.01.2000;</li>
+            <li>Age: 22;</li>
+            <li>Military: non-obliged;</li>
+            <li>Marital Status: not married.</li> 
+        </ul>
+        <h3 class="h3">Education</h3>
+        <ol class="ul">
+            <li>2006-2017 years Secondary school N2 in Stolin city;</li>
+            <li>2018-2022 stadying at International University MITSO, specialty "Information systems and technologies".</li>
+        </ol>
+    </section>
+    </div>
+    <div class="main">
+    <section class="seccent">
+     <ul class="ul">
+        <li>MS Office;</li>
+        <li>MySQL;</li>
+        <li>Access;</li>
+        <li>Strong skills working with the Internet;</li>
+        <li>Computer networks;</li>
+        <li>Windows;</li>
+    </ul>
+    </section>
+    <section class="secright">
+        <ul class="ul">
+        <li>Qa testing(basics);</li>
+        <li>C#(basics);</li>
+        <li>JavaScript(beginner);</li>
+        <li>java(beginner);</li>
+        <li>HTML(basics);</li>
+        <li>CSS(basics);</li> 
+        </ul>
+    </section>
+    <section class="secleft" id="skill"><h2 class="h2">My skills</h2></section></section>
+    </div>
+    <div class="main">
+    <section class="secleft" id="lang"><h2 class="h2">Languages</h2></section></section>
+    <section class="section">
+        <ol class="ul">
+            <li>English(Pre-intermediate);</li>
+            <li>Russian(Native)</li>
+        </ol>
+    </section>   
+    </div>
+    <div class="main">
+        <section class="section">
+            <ul class="ul">
+                <li>Benevolence</li>
+                <li>self-confidence</li>
+                <li>performance</li>
+                <li>accuracy</li>
+                <li>attention to details.</li>
+            </ul>
+        </section>
+        <section class="secleft"  id="Pers"><h2 class="h2">Personal qualities</h2></section></section>
+    </div>
+    <div class="main">
+        <section class="secleft" id="code"><h2 class="h2">Code example</h2></section></section>
+        <section class="section">
+         <div class="div">
+            <code><pre> function checkParent (src, dest) {
+                while (src != null) {
+                  if (src.tagName == dest) return src
+                  src = src.parentElement
+                }
+                return null
+              }
+            </pre>
+            </code>
+         </div>
+    </section>
+    </div>
+</main>
+<footer class="fot">
+    <section class="footsect" id="fot"><h2 class="foth2">Contact</h2></section>
+    <section>
+    <a href="https://vk.com/den7632"><img class="imgfot" src="img\vk.png" alt="vk"></a>
+    <a href="https://github.com/Denis-Shipilov"><img class="imgfot" src="img\git.png" alt="github"></a>
+    <img class="imgfot" src="img\phone.png" title="+375292064609">
+    </section>
+</footer>
+</div>
 </body>
 </html>
